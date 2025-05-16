@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
-    int a=23,b=89,c=12,d=56;
+    int a=203,b=54,c=15,d=76;
     printf(" %d\n",a+b+c+d);
-    printf("%d",23+89+12+56);    
+    printf("%d",203+54+15+76);    
     return 0;
 }
