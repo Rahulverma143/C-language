@@ -1,15 +1,18 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+int main()
+{
     int n;
     printf("Enter nuber:");
-    scanf("%d",&n);
-    int temp=n;
-    for(int temp=n; temp>=1; temp--){
-    for(int i=1; i<=n; i++){
-        printf("%d",temp);
+    scanf("%d", &n);
+    int temp = n;
+    for (int temp = n; temp >= 1; temp--)
+    {
+        for (int i = 1; i <= n; i++)
+        {
+            printf("%d", temp);
+        }
+        printf("\n");
     }
-    printf("\n");
-}
 }
 /*
 4444

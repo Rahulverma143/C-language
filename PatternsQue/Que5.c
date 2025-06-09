@@ -1,17 +1,20 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+int main()
+{
     int n;
     printf("Enter nuber:");
-    scanf("%d",&n);
-    for(int j=1; j<=n; j++){
-    for(int i=1; i<=n*2; i+=2){
-        printf("%d ",i);
+    scanf("%d", &n);
+    for (int j = 1; j <= n; j++)
+    {
+        for (int i = 1; i <= n * 2; i += 2)
+        {
+            printf("%d ", i);
+        }
+        printf("\n");
     }
-    printf("\n");
-}
 }
 /*
-1 3 5 7 
+1 3 5 7
 1 3 5 7
 1 3 5 7
 1 3 5 7

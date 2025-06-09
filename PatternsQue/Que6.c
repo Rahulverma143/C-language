@@ -6,16 +6,16 @@ int main()
     scanf("%d", &n);
     for (int j = 1; j <= n; j++)
     {
-        for (int i = n; i >= 1; i--)
+        for (int i = n * 2 - 1; i >= 1; i -= 2)
         {
-            printf("%d", i);
+            printf("%d ", i);
         }
         printf("\n");
     }
 }
 /*
-4321
-4321
-4321
-4321
+7 5 3 1
+7 5 3 1
+7 5 3 1
+7 5 3 1
 */
