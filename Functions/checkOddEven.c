@@ -11,5 +11,7 @@ int main(){
 
     checkOddEven(4);
     checkOddEven(3);
-    checkOddEven(7);
+    checkOddEven(9);
+    
+
     }
